@@ -19,8 +19,13 @@ static const Rule rules[] = {
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
+	/** Editors in tag 2 */
+	{ "Code",     NULL,       NULL,       1 << 1,       0,           -1 },
+	/** Browsers in tag 3 */
 	{ "firefox",  NULL,       NULL,       1 << 2,       0,           -1 },
+	/** Comms in tag 4 */
 	{ "Slack",    NULL,       NULL,       1 << 3,       0,           -1 },
+	{ "TelegramDesktop",    NULL,       NULL,       1 << 3,       0,           -1 },
 };
 
 /* layout(s) */
